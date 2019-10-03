@@ -1,0 +1,30 @@
+{
+  "name": "file-upload-server",
+  "version": "1.0.0",
+  "description": "Simple file upload utility",
+  "main": "index.js",
+  "dependencies": {
+    "connect-busboy": "^0.0.2",
+    "express": "^4.17.1",
+    "filesize": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trgwii/File-Uploader.git"
+  },
+  "keywords": [
+    "File",
+    "Uploader",
+    "HTTP"
+  ],
+  "author": "Thomas Rory Gummerson <thomas@gummerson.no> (https://trgwii.no/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trgwii/File-Uploader/issues"
+  },
+  "homepage": "https://github.com/trgwii/File-Uploader#readme"
+}
