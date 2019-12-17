@@ -13,7 +13,7 @@ app.post('/', busboy({ immediate: true }), (req, res) =>
 	req.busboy
 		.on('file', (fieldname, file, filename, encoding, mimetype) => {
 			console.log(fieldname, filename, encoding, mimetype);
-			file.pipe(createWriteStream(join('Files', filename)));
+			file.pipe(createWriteStream(join('files', filename)));
 		})
 		.once('finish', () =>
 			res.json({ ok: true })));
